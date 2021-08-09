@@ -1,0 +1,48 @@
+<html>
+    <head> <h1 align = "center">Litre Converter</h1></head>
+    <body>
+<fieldset>
+    <form name = "LitreConverter">
+    <p align = "left">
+        <r>INPUT (litres)</r> <br>
+    </p>
+    <p align = "left">
+        <r> A </r>
+        <input type = "text" value = " " name = "ltrdisplay">
+        <input type = "button" value = "Convert"
+        onclick = "pintsform.pintsdisplay.value = (eval(2.1134 * LitreConverter.ltrdisplay.value).toFixed(2)); quartsform.quartsdisplay.value=eval(1.0567 * LitreConverter.ltrdisplay.value); gallonsform.gallonsdisplay.value=eval(0.2642 * LitreConverter.ltrdisplay.value);"><br>
+    </p>
+    <p align = "left"> 
+        <input type = "button" name = "Clear" value = "Clear Values"
+        onclick = "LitreConverter.ltrdisplay.value = ''; pintsform.pintsdisplay.value = ''; quartsform.quartsdisplay.value = ''; gallonsform.gallonsdisplay.value = '';"">
+    </p>
+    </form>
+
+    <p align = "left">
+        <r>OUTPUT</r> <br>
+    <form name = "pintsform">
+    <p align = "left">
+        <r> B </r> 
+        <input type = "text" name = "pintsdisplay"><r> Pints </r>
+    </p>
+    </form>
+
+    <p align = "left">
+    <form name = "quartsform">
+    <p align = "left">
+        <r> C </r> 
+        <input type = "text" name = "quartsdisplay"><r> Quarts </r>
+    </p>
+    </form>
+
+    <p align = "left">
+    <form name = "gallonsform">
+    <p align = "left">
+        <r> D </r> 
+        <input type = "text" name = "gallonsdisplay"><r> Gallons </r>
+    </p>
+    </form>
+</fieldset>  
+
+    </body>
+</html>
